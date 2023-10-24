@@ -5,6 +5,9 @@ require_once 'application/models/dao/AcademyCategories.php';
 class CategoriesController extends AbstractLoggedInController
 {
 
+    public $name = NULL;  // instance variable
+
+
     protected function service()
     {
         $categories = new AcademyCategories();
@@ -56,6 +59,25 @@ class CategoriesController extends AbstractLoggedInController
         }else if($this->test_var_2=='altceva'){
             echo "PR TEST";
         }
+    }
 
+    public static function foo() {
+        #Bug - Reliability - Intentionality rule - high severity
+        if ($this->name != NULL) {
+            // ...
+        }
+
+        #Code Smell - Maintainability - Intentionality rule
+        $resultAnd = true and false; // Noncompliant: $resultAnd == true
+
+        #Consistency rule
+
+    }
+
+    public function bar($param)  {
+        #Bug - Reliability - Intentionality rule - high severity
+        if ($param === 42) {
+            exit(23);
+        }
     }
 }
