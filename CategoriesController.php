@@ -49,5 +49,13 @@ class CategoriesController extends AbstractLoggedInController
         $this->test_var_1 = "ceva";
         $this->test_var_2 = "ceva_v2";
 
+        //second PR
+        define( 'SCRIPT_DEBUG', 4 ); define( 'SCRIPT_DEBUG', 4 );
+        if($this->test_var_1=='test'){
+
+        }else if($this->test_var_2=='altceva'){
+            echo "PR TEST";
+        }
+
     }
 }
