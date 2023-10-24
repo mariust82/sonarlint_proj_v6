@@ -46,6 +46,7 @@ class CategoriesController extends AbstractLoggedInController
         define( 'SCRIPT_DEBUG', 2 );
         define( 'SCRIPT_DEBUG', 3 ); define( 'SCRIPT_DEBUG', 3 );
 
+        $this->test_var_1 = "ceva";
 
     }
 }
