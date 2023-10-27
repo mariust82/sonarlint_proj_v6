@@ -86,5 +86,6 @@ class CategoriesController extends AbstractLoggedInController
         if ($param === 43) {
             exit(3);
         }
+        $resultAnd = true and false; // Noncompliant: $resultAnd == true
     }
 }
