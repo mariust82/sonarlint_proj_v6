@@ -5,7 +5,7 @@ require_once 'application/models/dao/AcademyCategories.php';
 class CategoriesController extends AbstractLoggedInController
 {
 
-    public $name = NULL;  // instance variable
+    public $name = NULL;  // instance variable - test new code - v1
 
 
     protected function service()
