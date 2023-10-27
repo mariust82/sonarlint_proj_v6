@@ -22,4 +22,13 @@ class CleanCode_Intentionally
         define('CONSTANT_VALUE', 'intended value');
     }
 
+    #Clean code attribute - Intentionality; Software Quality - Maintability; Severity - Medium
+    protected function constantsTest_v2()
+    {
+        define('CONSTANT_VALUE', 'old value');
+        define('SCRIPT_DEBUG', 1);
+        // Noncompliant, tries to redefine constant defined 2 lines above
+        define('CONSTANT_VALUE', 'intended value');
+    }
+
 }
