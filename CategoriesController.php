@@ -80,4 +80,11 @@ class CategoriesController extends AbstractLoggedInController
             exit(23);
         }
     }
+
+    public function bar_v2($param)  {
+        #Bug - Reliability - Intentionality rule - high severity - v2
+        if ($param === 43) {
+            exit(3);
+        }
+    }
 }
