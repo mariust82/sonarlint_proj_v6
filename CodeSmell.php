@@ -29,4 +29,18 @@ class CodeSmell
                 break;
         }
     }
+
+    public function HighSeverity_v3($param_v3){
+        switch ($param_v3) {
+            case 0:
+                doSomething_v3();
+                break;
+            default: // Noncompliant: default clause should be the first or last one
+                error();
+                break;
+            case 1:
+                doSomethingElse_v3();
+                break;
+        }
+    }
 }
