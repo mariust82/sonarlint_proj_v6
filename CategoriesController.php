@@ -6,8 +6,7 @@ class CategoriesController extends AbstractLoggedInController
 {
 
     public $name = NULL;  // instance variable - test new code - v1
-    #test - branch analysis setup - v1
-
+    #test - branch analysis setup - v5
 
     protected function service()
     {
