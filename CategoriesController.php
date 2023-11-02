@@ -88,4 +88,6 @@ class CategoriesController extends AbstractLoggedInController
         }
         $resultAnd = true and false; // Noncompliant: $resultAnd == true
     }
+
+    #first file modified - v1
 }
