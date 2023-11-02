@@ -5,6 +5,7 @@ on:
       - master  # The default branch
       - branch-*    # The other branches to be analyzed
       - development    # The other branches to be analyzed
+      - short_lived_branch_v1
   pull_request:
     types: [opened, synchronize, reopened]
 jobs:
