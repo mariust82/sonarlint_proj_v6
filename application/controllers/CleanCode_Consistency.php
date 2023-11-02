@@ -10,6 +10,7 @@ class CleanCode_Consistency
 
     public $name_v3 = NULL;  // instance variable - v3
 
+    #this is a commit in order to check if the above code will be scanned or not, because it was never scanned until now - v1
 
 
 }
