@@ -89,5 +89,5 @@ class CategoriesController extends AbstractLoggedInController
         $resultAnd = true and false; // Noncompliant: $resultAnd == true
     }
 
-    #first file modified - v1
+    #first file modified - v1 - doesnt scan - v1
 }
