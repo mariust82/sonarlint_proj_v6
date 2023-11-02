@@ -89,4 +89,6 @@ class CategoriesController extends AbstractLoggedInController
         }
         $resultAnd = true and false; // Noncompliant: $resultAnd == true
     }
+
+    # trigger quality gate - v1
 }
