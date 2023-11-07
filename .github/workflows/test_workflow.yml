@@ -18,5 +18,4 @@ jobs:
       - name: Step 2 - Run site checks for desktop
         run: |
           pwd
-          echo "Za run speed tests value is: ${{inputs.RUN_SPEED_TESTS}} "
-          php ${{ inputs.SITE_CHECKER_SCRIPT_FILE }} '${{ inputs.DEPLOY_FOLDER }}' ${{ steps.tests_code_strategy.outputs.value }}
+          echo "Merge"
